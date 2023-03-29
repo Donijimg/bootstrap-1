@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body class="d-flex align-items-center">
+  <div class="container">
+    <div class="d-flex justify-content-center gy-3">
+    <h1>Form</h1></div>
+    <form class="row">
+        <div class="col-md-12">
+          <label for="input1" class="form-label">User name</label>
+          <input type="text" class="form-control" id="input1" required>
+        </div>
+        <div class="col-md-12">
+            <label for="input2" class="form-label">Email</label>
+            <input type="email" class="form-control" id="input2"required>
+        </div>
+        <div class="col-md-12">
+            <label for="input3" class="form-label">address</label>
+            <input type="address" class="form-control" id="input3" value="Av . Calle #" required>
+          </div>
+          <div class="col-md-6">
+            <label for="input4" class="form-label">City</label>
+            <input type="city" class="form-control" id="input4"required>
+            </div>
+
+          <div class="col-md-3">
+            <label for="selected1" class="form-label">Departament</label>
+            <select class="form-select" id="selected1" value="select"required>
+              <option selected disabled value="form-select">select...</option>
+              <option>...</option>
+            </select>
+            </div>
+          <div class="col-md-3">
+            <label for="codepost" class="zip-code">Zip code</label>
+            <input type="zip-code" class="form-control mt-2" id="codepost" required>
+            </div>
+            <div class="col-md-12">
+              <label for="floatingTextarea2">Comments</label>
+              <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+             
+          <div class="pt-3 warning">
+          <div class="col-12 mb-3">
+            <div class="d-flex justify-content-center ">
+            <div class="form-check">
+              <input class="checkbox" type="checkbox" value="checkbox" id="checkbox" required>
+              <label class="checkbox" for="checkbox">Accept terms and conditions</label>
+            </div>
+          </div>
+          </div>
+        </div>
+          <div class="col-12 mb-3">
+            <div class="d-flex justify-content-center gy-3">
+            <button class="btn btn-primary" type="submit">confirm</button></div>
+          </div>
+        </form>          
+      </div>
+      </div>
+</body>
+</html>
